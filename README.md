@@ -8,5 +8,8 @@ REST API Server based on Node.js & TDD
 $ npm i
 
 $ npm start // start server
+$ curl localhost:3000/users
+$ curl localhost:3000/users/{id}
+
 $ npm t // TDD
 ```
